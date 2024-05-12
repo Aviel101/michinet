@@ -1,0 +1,76 @@
+<!-- 
+    Full Name: Aviel Khotyanov
+    ID: 326131705
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="favicon.png">
+    <!-- other files links -->
+    <link rel="stylesheet" href="style.css">
+    <script src="registration.js"></script>
+</head>
+
+<body>
+    <!-- logo -->
+    <div class="logo">
+        <img class="logo__image"
+            src="petvariety_0.png">
+    </div>
+    <!-- about -->
+    <div class="about">
+        <h1 class="header about__header">About</h1>
+        <p class="about__text">
+            Welcome to the Michinet membership site, which you can find a lot of 
+            pet foods and equipments, for dogs, cats, hamsters and more!
+        </p>
+    </div>
+    <!-- register -->
+    <div class="register">
+        <h1 class="header register__header">Register</h1>
+        <form class="register__form">
+            <!-- first & last name -->
+            <div class="row">
+                <div class="field">
+                    <label class="field__label">First Name</label>
+                    <input class="field__box" type="text">
+                </div>
+                <div class="field">
+                    <label class="field__label">Last Name</label>
+                    <input class="field__box" type="text">
+                </div>
+            </div>
+            <!-- telephone number -->
+            <div class="field">
+                <label class="field__label">Telephone Number</label>
+                <input class="field__box" type="tel">
+            </div>
+            <!-- email adress -->
+            <div class="field">
+                <label class="field__label">Email</label>
+                <input class="field__box" type="email">
+            </div>
+            <!-- password -->
+            <div class="field">
+                <label class="field__label">password</label>
+                <input class="field__box" type="password">
+            </div>
+            <div class="field">
+                <label class="field__label">repeat password</label>
+                <input class="field__box" type="password">
+            </div>
+            <!-- Submit button -->
+            <div class="button">
+                <input onclick="password_check()" class="button__submit" type="button" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

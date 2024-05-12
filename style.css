@@ -1,0 +1,97 @@
+/* 
+    Full Name: Aviel Khotyanov
+    ID: 326131705
+*/
+
+/*
+    custom background
+*/
+body {
+    background-color: lightcyan;
+}
+
+/*
+    make all elements in page centered
+*/
+body, div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 
+    resize image proportionally to the screen
+    so it'll work with other screen
+*/
+.logo__image {
+    width: 50%;
+    height: auto;
+}
+
+/*
+    headers
+*/
+.header {
+    margin: 1px;
+}
+
+/*
+    about text style
+*/
+.about__text {
+    max-width: 50%;
+}
+/*
+    make full name fields in one row 
+*/
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+    add margin to field box, and change color on hover
+*/
+.field__box {
+    margin: 3px 3px;
+}
+
+.field__box:hover {
+    background-color: orange;
+    transition: background-color 0.5s;
+}
+
+/*
+    submit button edit
+*/
+.button__submit {
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 22px;
+    background-color: rgb(42, 165, 153);
+}
+
+.button__submit:active {
+    background-color: aqua;
+}
+
+/*
+    error
+*/
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+/*
+    success
+*/
+.success {
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
